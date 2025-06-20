@@ -1,0 +1,35 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~53.0.12",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.4",
+    "expo-av": "~15.1.6",
+    "date-fns": "^3.6.0",
+    "expo-font": "~13.3.1",
+    "expo-dev-client": "~5.2.1",
+    "expo-notifications": "~0.31.3",
+    "expo-splash-screen": "~0.30.9",
+    "react-native-screens": "~4.11.1",
+    "@react-navigation/stack": "^6.3.20",
+    "@react-navigation/native": "^6.1.9",
+    "react-native-gesture-handler": "~2.24.0",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "react-native-safe-area-context": "5.4.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "expo-constants": "~17.1.6",
+    "@expo/vector-icons": "^14.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

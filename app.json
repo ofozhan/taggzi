@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Tagzi",
+    "slug": "tagzi-app",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ofozhan.tagzi",
+      "buildNumber": "2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ofozhan.tagzi",
+      "versionCode": 2
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e40d7970-ce87-4028-abd2-28e01d7b20cd"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e40d7970-ce87-4028-abd2-28e01d7b20cd"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-navigation-bar",
+        {
+          "visibility": "hidden",
+          "behavior": "inset-swipe"
+        }
+      ]
+    ]
+  }
+}
