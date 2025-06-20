@@ -6,16 +6,21 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "sdkVersion": "51.0.0",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FFFFFF"
+      "backgroundColor": "#FFFFFF",
+      "dark": {
+        "image": "./assets/splash-logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      }
     },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ofozhan.tagzi",
-      "buildNumber": "2"
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +28,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.ofozhan.tagzi",
-      "versionCode": 2
+      "versionCode": 4
     },
     "extra": {
       "eas": {
@@ -35,9 +40,6 @@
     },
     "runtimeVersion": {
       "policy": "appVersion"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    }
   }
 }
