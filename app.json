@@ -5,7 +5,6 @@
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "sdkVersion": "51.0.0",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-logo.png",
@@ -15,7 +14,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.ofozhan.tagzi",
-      "buildNumber": "2"
+      "buildNumber": "3",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +25,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.ofozhan.tagzi",
-      "versionCode": 2
+      "versionCode": 3
     },
     "extra": {
       "eas": {
@@ -31,13 +33,10 @@
       }
     },
     "updates": {
-      "url": "https://u.expo.dev/e40d7970-ce87-4028-abd2-28e01d7b20cd"
+      "url": "https://u.expo.dev/8f3c0450-e500-4301-9116-e339d69070e2"
     },
     "runtimeVersion": {
       "policy": "appVersion"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    }
   }
 }
