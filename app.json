@@ -5,14 +5,12 @@
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
+    "sdkVersion": "51.0.0",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FFFFFF",
-      "dark": {
-        "backgroundColor": "#000000"
-      }
+      "backgroundColor": "#FFFFFF"
     },
     "ios": {
       "supportsTablet": true,
@@ -40,16 +38,6 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "plugins": [
-      "expo-router",
-      [
-        "expo-navigation-bar",
-        {
-          "visibility": "hidden",
-          "behavior": "inset-swipe"
-        }
-      ]
     ]
   }
 }
